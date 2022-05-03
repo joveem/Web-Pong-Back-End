@@ -40,7 +40,7 @@ yarn
 ##### Running:
 
 ```
-node src/.
+npm start
 ```
 
 
@@ -56,7 +56,7 @@ cd Web-Pong-Back-End
 # Install dependencies:
 npm install
 # Start Server:
-node src/.
+npm start
 #
 ```
 
@@ -70,6 +70,6 @@ cd Web-Pong-Back-End
 # Install dependencies:
 yarn
 # Start Server:
-node src/.
+npm start
 #
 ```
