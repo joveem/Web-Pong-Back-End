@@ -76,3 +76,10 @@ export function ApplyBallPosition(playerSocket, eventData) {
         Matchs.ApplyBallPosition(playerSocket, eventData);
 
 }
+
+export function ApplyPing(playerSocket, eventData) {
+
+    if (eventData != null)
+        Events.SendEvent(playerSocket, "match-ping", eventData)
+
+}

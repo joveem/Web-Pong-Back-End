@@ -69,6 +69,14 @@ export function OnEventReceived(socket, eventReceived) {
 
             }
 
+        case "match-ping":
+            {
+
+                MatchEvents.ApplyPing(socket, eventReceived.EventData)
+                break;
+
+            }
+
             // Match movement events
         case "match-update-player-position":
             {
