@@ -17,7 +17,7 @@ To install this project in development mode, you need to have a Package Manager 
 
 ##### Cloning the repository:
 
-``` 
+``` sh
 git clone https://github.com/joveem/
 Web-Pong-Back-End.git
 cd Web-Pong-Back-End
@@ -28,18 +28,18 @@ cd Web-Pong-Back-End
 
 (with NPM)
 
-``` 
+``` sh
 npm install
 ```
 (with Yarn)
 
-``` 
+``` sh
 yarn
 ```
 
 ##### Running:
 
-```
+``` sh
 npm start
 ```
 
